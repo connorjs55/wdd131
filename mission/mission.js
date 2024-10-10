@@ -1,5 +1,6 @@
 const themeSelector = document.querySelector('#theme-select');
 
+// function to change theme
 function changeTheme() {
     const body = document.body;
     const logo = document.querySelector('#byui-logo');
