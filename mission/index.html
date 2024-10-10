@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BYUI Mission Statement</title>
+    <script src="mission.js" defer></script>
     <meta description="home page">
     <meta author="Connor Searle">
     <link rel="stylesheet" href="style/styles.css">
@@ -11,6 +12,12 @@
 <body>
     <div class="content">
         <header class="title">
+            <label for="theme-select">Choose a theme:</label>
+            <select name="theme" id="theme-select">
+                <option value="">--Please choose a theme--</option>
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+            </select>
             <h1>MISSION STATEMENT</h1>
             <h4>BRIGHAM YOUNG UNIVERSITY-IDAHO</h4>
         </header>
@@ -18,20 +25,42 @@
             <line x1="0" y1="10" x2="600" y2="10" style="stroke:black;stroke-width:1" />
         </svg>
         <main id="main-text-body">
-            <p>Brigham Young University-Idaho was founded and is supported and guided by The Church of 
-            Jesus Christ of Latter-day Saints. Its mission is to develop disciples of Jesus Christ 
-            who are leaders in their homes, the Church, and their communities.
+            <p>
+                Brigham Young University-Idaho was founded and is supported and guided by The Church of 
+                Jesus Christ of Latter-day Saints. Its mission is to develop disciples of Jesus Christ 
+                who are leaders in their homes, the Church, and their communities.
+            </p>
 
             <p><i>The university does this by:</i></p>
-            <p>1. Building testimonies of the restored gospel of Jesus Christ and fostering its principles
-            in a wholesome academic, cultural, and social environment.</p>
-            <p>2. Providing a high-quality education that prepares students of diverse interests and 
-                abilities for lifelong learning and employment.</p>
-            <p>3. Serving as many students as possible within resource constraints.</p>
-            <p>4. Delivering education that is affordable for students and the Church.</p>    
+            <ol>
+                <li>
+                    <p>
+                        Building testimonies of the restored gospel of Jesus Christ 
+                        and fostering its principles in a wholesome academic, cultural, 
+                        and social environment.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Providing a high-quality education that prepares students of diverse interests 
+                        and abilities for lifelong learning and employment.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Serving as many students as possible within resource constraints.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Delivering education that is affordable for students and the Church.
+                    </p>
+                </li>
+            </ol>            
         </main>
         <footer>
             <img id="byui-logo" src="style/images/byui-logo_blue.webp" alt="byui logo">
+            
         </footer>
     </div>
 </body>

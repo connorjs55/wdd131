@@ -8,6 +8,11 @@
     border-color: #000000;
 }
 
+.dark {
+    background-color: #333;
+    color: white;
+}
+
 h1 {
     margin: auto;
     text-align: center;
@@ -18,7 +23,13 @@ h4 {
     color: #006EB6;
     text-align: center;
     letter-spacing: .2rem;
-    font-size: 15px
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.dark h4 {
+    color: rgb(160, 212, 237)
 }
 
 #main-text-body {
