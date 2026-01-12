@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(189, 189, 189);
+    border-style: solid;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #007BFF;
+}
+
+hr {
+    border: none;          /* Remove default border */
+    height: 2.5px;           /* Thickness of the line */
+    background-color: #007BFF; /* Line color */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 280px;
+    /* width: 50%; */
+}
+
+#topics {
+    display: box;
+    max-width: 400px;
+    margin: auto;
+}
+
+ul {
+    /* text-align: left; */
+    list-style-type: none;
+}
